@@ -1,19 +1,80 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+}
+.center{
+    padding-left: calc(50% - 645px);
+    padding-right: calc(50% - 645px);
 }
 .navi{
     padding-top: 51px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.navi__menu{
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;;
+}
+
+.top{
+
 }
 .top__info{
     margin-top:94px;
     margin-bottom: 103px;
+    width: 522px;
+}
+.text{
+    font-family: 'Questrial', sans-serif;
+    color: #888;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .titil{
     margin-bottom: 17px;
+    font-family:'Questrial', sans-serif;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .top__buttons{
 margin-top: 52px;
+color: #AAA;
+
+font-family:'Questrial', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.button{
+    border-radius: 50px;
+background: #F25822;
+
+box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+width: 140px;
+height: 50px;
+flex-shrink: 0;
+color: #FFF;
+
+font-family:'Questrial', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 .logo{
     margin-bottom: 98px;
